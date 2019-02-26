@@ -1,0 +1,58 @@
+  body{
+    background-color:#008aff;
+  }
+
+
+.future-module-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+  max-width: 1400px;
+  min-width: 1000px;
+	padding: 0 100px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 600px;
+}
+
+.future-module {
+	width: 600px;
+	margin: 80px 00px 80px 0px;
+	overflow: hidden;
+}
+
+.futureimg1 { position: absolute; z-index: 6;}
+.futureimg2 { position: absolute; z-index: 5; display: none;}
+.futureimg3 { position: absolute; z-index: 4; display: none;}
+.futureimg4 { position: absolute; z-index: 3; display: none;}
+.futureimg5 { position: absolute; z-index: 2; display: none;}
+.futureimg6 { position: absolute; z-index: 1; display: none;}
+
+
+
+#futuretext1 { color: white; font-size: 12px; font-family: 'futura'; }
+
+#futuretext2 { color: white; font-size: 12px; font-family: 'futura'; display: none; }
+#futuretext3 { color: white; font-size: 12px; font-family: 'futura'; display: none; }
+#futuretext4 { color: white; font-size: 12px; font-family: 'futura'; display: none; }
+#futuretext5 { color: white; font-size: 12px; font-family: 'futura'; display: none; }
+#futuretext6 { color: white; font-size: 12px; font-family: 'futura'; display: none; }
+
+#futuretext7 { color: #f6db1d; font-size: 14px; font-family: 'futura'; display: none; }
+    
+#futuretext1{margin: 100px 0px 0px 0px;}
+#futuretext7{margin: 40px 0px 0px 0px;}
+  
+  #futuretext1:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+  
+  #futuretext2:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+  #futuretext3:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+  #futuretext4:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+  #futuretext5:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+  #futuretext6:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+  
+  #futuretext7:hover {text-decoration: underline; font-size: 14px;font-family: 'futura';cursor: pointer;}
+

@@ -1,0 +1,59 @@
+body{
+  background-color:#f6db1d;
+}
+
+
+.past-module-container {
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+max-width: 1400px;
+min-width: 1000px;
+padding: 0 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+img {
+width: 600px;
+}
+
+.past-module {
+width: 600px;
+margin: 80px 00px 80px 0px;
+overflow: hidden;
+}
+
+.pastimg1 { position: absolute; z-index: 6;}
+.pastimg2 { position: absolute; z-index: 5; display: none;}
+.pastimg3 { position: absolute; z-index: 4; display: none;}
+.pastimg4 { position: absolute; z-index: 3; display: none;}
+.pastimg5 { position: absolute; z-index: 2; display: none;}
+
+.pasttext {
+  text-align: right;
+}
+
+#pasttext1 { color: black; font-size: 12px; font-family: 'futura';}
+
+#pasttext2 { color: black; font-size: 12px; font-family: 'futura'; display: none;}
+#pasttext3 { color: black; font-size: 12px; font-family: 'futura'; display: none;}
+#pasttext4 { color: black; font-size: 12px; font-family: 'futura'; display: none;}
+#pasttext5 { color: black; font-size: 12px; font-family: 'futura'; display: none;}
+
+#pasttext6 { color:#008aff; font-size: 14px; font-family: 'futura'; display: none;}
+
+#pasttext1{margin: 100px 0px 0px 0px;}
+#pasttext6{margin: 40px 0px 0px 0px;}
+
+#pasttext1:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+
+#pasttext2:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+#pasttext3:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+#pasttext4:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+#pasttext5:hover {text-decoration: underline; font-size: 12px;font-family: 'futura';cursor: pointer;}
+
+#pasttext6:hover {text-decoration: underline; font-size: 14px;font-family: 'futura';cursor: pointer;}
+#pasttext6:link {color: #008aff;}
+#pasttext6:visited {color: #008aff;}
+

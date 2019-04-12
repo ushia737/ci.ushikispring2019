@@ -12,7 +12,7 @@ var w = window.innerWidth;
 var h = window.innerHeight;
 
 var mouseIsDragged = false;
-let img; 
+var button;
 let font;
 let soundtrack;
 
@@ -33,9 +33,6 @@ function setup() {
 
   textFont('helvetica');
   textStyle(BOLD)
-
-  soundtrack.play();
-
 }
 
 function draw() {
@@ -47,6 +44,12 @@ function draw() {
     stroke("gray");
   }
   drawWords(width * 0.25);
+
+}
+
+
+function mousePressed() {
+  soundtrack.play();
 }
 
 function drawWords(x) {
@@ -55,7 +58,9 @@ function drawWords(x) {
   text('The', 100, 525);
   textSize(200);
   text('Office', 100, 725);
+
 }
+
 
 function mouseDragged() {
   for (var x = mouseX - rad; x < mouseX+rad; x++) {

@@ -58,6 +58,8 @@ function drawWords(x) {
   text('The', 100, 525);
   textSize(200);
   text('Office', 100, 725);
+  textSize(20);
+  text('Click and drag to reveal.', 100, 150);
 
 }
 

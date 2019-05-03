@@ -35,21 +35,25 @@ function setup() {
   textStyle(BOLD)
 }
 
+
 function draw() {
   noStroke();
   image(img, 0, 0, width, height);
   image(layer, 0, 0);
+  drawWords(width * 0.25);
+  
   if (mouseIsPressed) {
     noFill();
-    stroke("gray");
+    stroke("white");
+    ellipse(mouseX, mouseY, rad*2, rad*2);
   }
-  drawWords(width * 0.25);
 
 }
 
 
 function mousePressed() {
   soundtrack.play();
+
 }
 
 function drawWords(x) {
@@ -58,9 +62,8 @@ function drawWords(x) {
   text('The', 100, 525);
   textSize(200);
   text('Office', 100, 725);
-  textSize(20);
-  text('Click and drag to reveal.', 100, 150);
-
+  // textSize(20);
+  // text('Another quote →', 1400, 140);
 }
 
 
@@ -68,7 +71,7 @@ function mouseDragged() {
   for (var x = mouseX - rad; x < mouseX+rad; x++) {
     for (var y = mouseY - rad; y < mouseY+rad; y++) {
       if ((dist(x,y, mouseX, mouseY) < rad) && x > 0 && x <= width) {
-  layer.set(x,y,alphaC);
+        layer.set(x,y,alphaC);
       }
     }
   }

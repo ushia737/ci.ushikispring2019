@@ -1,0 +1,65 @@
+html {
+  cursor: url('../img/kanyesmall3.png'), auto;
+}
+body {
+  color: #fff;
+  background-color: #000;
+
+}
+
+.random {
+  /* width: auto;
+  height: auto; */
+  opacity: 30%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 20pt;
+  text-align: center;
+  margin: 100px 0 125px 0;
+}
+
+section {
+  font-size: 35pt;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+span {
+  font-family: 'bodoni', serif;
+}
+
+.refresh {
+  position: fixed;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, 50%);
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+a.refresh:link {color: #fff; text-decoration: none;}
+a.refresh:visited {
+  color: #fff; text-decoration: none;}
+a.refresh:hover {
+  color: #F6BC4F;
+  cursor: url('../img/kanyesmall3.png'), auto;
+}
+a.refresh:active {color: #fff;}
+
+img {
+  position: fixed;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, 50%);
+  max-height: 150px;
+  z-index: 1;
+}
+
+
+
